@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* font-family: sans-serif; */
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    line-height: 1.5;
+    background-color: #062863;
+    max-width: 100vw;
+}
+
+a img {
+    margin: 0 0 48px;
+}
+
+.box {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    overflow: auto;
+}
+
+.background {
+    background: url('../images/1.png'), url('../images/2.png'), url('../images/3.png'), url('../images/last.png');
+    background-size: 15%, 15%, 15%, 15%;
+    background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 368px;
+    border-bottom-right-radius: 1.25rem;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    background-color: #fff;
+    padding: 40px 40px 48px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    color: #083e9e;
+    font-family: 'U8', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+header p {
+    color: #4a5568;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.flex-1 {
+    display: flex;
+    align-items: flex-end;
+}
+
+label {
+    color: #4a5568;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0 0 4px;
+    font-family: 'karla' sans-serif;
+
+}
+
+input, select {
+    padding: 16px;
+    background: #edf2f7;
+    border-radius: .25rem;
+    outline: none;
+    font: 400 16px Arial;;
+    border: none;
+    color: #1a202c;
+}
+
+button {
+    width: 100%;
+    background: rgb(8, 62, 158);;
+    border: 1px solid rgb(8, 62, 158);;
+    color: #fff;
+    border-bottom-right-radius: 1.25rem;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    padding: 20px 40px 16px;
+    font-size: 14px;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.flex2 {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    margin: 32px 0 0;
+    padding: 4px 20px;
+}
