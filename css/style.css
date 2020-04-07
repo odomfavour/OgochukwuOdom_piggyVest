@@ -62,12 +62,12 @@ header p {
     font-size: 14px;
 }
 
-.flex {
+.input-box {
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
 }
-.flex-1 {
+.button-box {
     display: flex;
     align-items: flex-end;
 }
@@ -103,9 +103,10 @@ button {
     font-size: 14px;
     font-weight: 700;
     justify-content: center;
+    letter-spacing: 0.5px;
 }
 
-.flex2 {
+.account-link {
     display: flex;
     color: #fff;
     text-decoration: none;
